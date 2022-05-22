@@ -8,8 +8,7 @@
 	<title>Document</title>
 	<script src="https://cdn.tailwindcss.com"></script>
 	<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
+	<script src="https://unpkg.com/flowbite@1.4.6/dist/datepicker.js"></script>
 	<script src="./js/tailwind.config.js"></script>
 	<script src="./js/sidebar.js"></script>
 
@@ -25,16 +24,15 @@
 				class="w-64 absolute sm:relative bg-gray-800 shadow md:h-full flex-col justify-between hidden sm:flex">
 				<div class="px-8">
 					<div class="h-16 w-full flex items-center">
-						<img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/light_with_icons_at_bottom-svg1.svg"
-							alt="Logo">
+						
+							<h3 class="text-white text-2xl font-bold text-center">DOCTORS</h3>
 					</div>
 					<ul class="mt-12">
 						<li class="flex w-full justify-between text-gray-300 cursor-pointer items-center mb-6">
-							<a href="javascript:void(0)"
-								class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
-								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-grid"
-									width="18" height="18" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-									fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<a href="/index.html" class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-grid" width="18" height="18"
+									viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+									stroke-linejoin="round">
 									<path stroke="none" d="M0 0h24v24H0z"></path>
 									<rect x="4" y="4" width="6" height="6" rx="1"></rect>
 									<rect x="14" y="4" width="6" height="6" rx="1"></rect>
@@ -43,85 +41,60 @@
 								</svg>
 								<span class="text-sm ml-2">Dashboard</span>
 							</a>
-							<div
-								class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs">
+							<div class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs">
 								5
 							</div>
 						</li>
-						<li
-							class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
-							<a href="javascript:void(0)"
-								class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
-								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-puzzle"
-									width="18" height="18" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-									fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<li class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+							<a href="/table.html" class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-puzzle" width="18" height="18"
+									viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+									stroke-linejoin="round">
 									<path stroke="none" d="M0 0h24v24H0z"></path>
 									<path
 										d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1">
 									</path>
 								</svg>
-								<span class="text-sm ml-2">Products</span>
+								<span class="text-sm ml-2">Table</span>
 							</a>
-							<div
-								class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs">
+							<div class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs">
 								8
 							</div>
 						</li>
-						<li
-							class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
-							<a href="javascript:void(0)"
-								class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
-								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-compass"
-									width="18" height="18" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-									fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<li class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+							<a href="/index.html" class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-compass" width="18" height="18"
+									viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+									stroke-linejoin="round">
 									<path stroke="none" d="M0 0h24v24H0z"></path>
 									<polyline points="8 16 10 10 16 8 14 14 8 16"></polyline>
 									<circle cx="12" cy="12" r="9"></circle>
 								</svg>
-								<span class="text-sm ml-2">Performance</span>
+								<span class="text-sm ml-2">From</span>
 							</a>
 						</li>
-						<li
-							class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
-							<a href="javascript:void(0)"
-								class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
-								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code"
-									width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-									fill="none" stroke-linecap="round" stroke-linejoin="round">
-									<path stroke="none" d="M0 0h24v24H0z"></path>
-									<polyline points="7 8 3 12 7 16"></polyline>
-									<polyline points="17 8 21 12 17 16"></polyline>
-									<line x1="14" y1="4" x2="10" y2="20"></line>
-								</svg>
-								<span class="text-sm ml-2">Deliverables</span>
-							</a>
-						</li>
-						<li
-							class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
-							<a href="javascript:void(0)"
-								class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
-								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-puzzle"
-									width="18" height="18" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-									fill="none" stroke-linecap="round" stroke-linejoin="round">
+					
+						<li class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+							<a href="/login.html" class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-puzzle" width="18" height="18"
+									viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+									stroke-linejoin="round">
 									<path stroke="none" d="M0 0h24v24H0z"></path>
 									<path
 										d="M4 7h3a1 1 0 0 0 1 -1v-1a2 2 0 0 1 4 0v1a1 1 0 0 0 1 1h3a1 1 0 0 1 1 1v3a1 1 0 0 0 1 1h1a2 2 0 0 1 0 4h-1a1 1 0 0 0 -1 1v3a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-1a2 2 0 0 0 -4 0v1a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1h1a2 2 0 0 0 0 -4h-1a1 1 0 0 1 -1 -1v-3a1 1 0 0 1 1 -1">
 									</path>
 								</svg>
-								<span class="text-sm ml-2">Invoices</span>
+								<span class="text-sm ml-2">Login</span>
 							</a>
-							<div
-								class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs">
+							<div class="py-1 px-3 bg-gray-600 rounded text-gray-300 flex items-center justify-center text-xs">
 								25
 							</div>
 						</li>
-						<li
-							class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
-							<a href="javascript:void(0)"
-								class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
-								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-stack"
-									width="18" height="18" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-									fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<li class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center mb-6">
+							<a href="javascript:void(0)" class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-stack" width="18" height="18"
+									viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+									stroke-linejoin="round">
 									<path stroke="none" d="M0 0h24v24H0z" />
 									<polyline points="12 4 4 8 12 12 20 8 12 4" />
 									<polyline points="4 12 12 16 20 12" />
@@ -130,13 +103,11 @@
 								<span class="text-sm ml-2">Inventory</span>
 							</a>
 						</li>
-						<li
-							class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center">
-							<a href="javascript:void(0)"
-								class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
-								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-settings"
-									width="18" height="18" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
-									fill="none" stroke-linecap="round" stroke-linejoin="round">
+						<li class="flex w-full justify-between text-gray-400 hover:text-gray-300 cursor-pointer items-center">
+							<a href="javascript:void(0)" class="flex items-center focus:outline-none focus:ring-2 focus:ring-white">
+								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-settings" width="18" height="18"
+									viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+									stroke-linejoin="round">
 									<path stroke="none" d="M0 0h24v24H0z" />
 									<path
 										d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 0 0 2.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 0 0 1.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 0 0 -1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 0 0 -2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 0 0 -2.573 -1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 0 0 -1.065 -2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 0 0 1.066 -2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
@@ -414,18 +385,18 @@
 
 									<div class="col-span-6">
 										<p class="text-center text-xl font-semibold border-b-4 border-pink-300 pb-4">
-											Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, inventore.
+											রোগী কতৃক পূরণীয় যেখানে প্রয়োজন টিক দিন ও লিখুন
 										</p>
 									</div>
 
 									<div class="col-span-6 sm:col-span-6 lg:col-span-2">
-										<label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+										<label for="name" class="block text-sm font-medium text-gray-700">নাম</label>
 										<input type="text" name="name" id="name" autocomplete="address-level2"
 											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
 									</div>
 
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="region" class="block text-sm font-medium text-gray-700">Age</label>
+										<label for="region" class="block text-sm font-medium text-gray-700">বয়স</label>
 										<input type="Number" name="region" id="region" autocomplete="address-level1"
 											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
 									</div>
@@ -433,19 +404,19 @@
 									<!-- Gender  -->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label for="country"
-											class="block text-sm font-medium text-gray-700">Gender</label>
+											class="block text-sm font-medium text-gray-700">লিঙ্গ</label>
 										<select id="country" name="country" autocomplete="country-name"
 											class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
-											<option>Male</option>
-											<option>Female</option>
-											<option>Other</option>
+											<option>পুরুষ </option>
+											<option>মহিলা</option>
+											<option>অন্যান্য</option>
 										</select>
 									</div>
 
 									<!-- Upazila  -->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label for="region"
-											class="block text-sm font-medium text-gray-700">Upazila</label>
+											class="block text-sm font-medium text-gray-700">উপজেলা</label>
 										<input type="text" name="region" id="region" autocomplete="address-level1"
 											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
 									</div>
@@ -453,23 +424,21 @@
 									<!-- District -->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
 										<label for="region"
-											class="block text-sm font-medium text-gray-700">District</label>
+											class="block text-sm font-medium text-gray-700">জেলা</label>
 										<input type="text" name="region" id="region" autocomplete="address-level1"
 											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
 									</div>
 
 									<!-- Phone -->
 									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="country" class="block text-sm font-medium text-gray-700">Phone
-											No</label>
+										<label for="country" class="block text-sm font-medium text-gray-700">ফোন নম্বর</label>
 										<input type="Number" name="region" id="region" autocomplete="address-level1"
 											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
 									</div>
 
 									<!-- Blood group -->
 									<div class="col-span-6 sm:col-span-6 lg:col-span-2">
-										<label for="country" class="block text-sm font-medium text-gray-700">Blood
-											group</label>
+										<label for="country" class="block text-sm font-medium text-gray-700">রক্তের গ্রুপ</label>
 										<select id="country" name="country" autocomplete="country-name"
 											class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
 											<option>A +</option>
@@ -485,10 +454,9 @@
 									</div>
 
 
-									<!-- Educational Qualifications -->
+									<!-- শিক্ষাগত যোগ্যতা -->
 									<div class="col-span-6 sm:col-span-6 lg:col-span-2">
-										<label for="country" class="block text-sm font-medium text-gray-700">Educational
-											Qualifications</label>
+										<label for="country" class="block text-sm font-medium text-gray-700">শিক্ষাগত যোগ্যতা</label>
 										<select id="country" name="country" autocomplete="country-name"
 											class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
 											<option>
@@ -502,10 +470,10 @@
 										</select>
 									</div>
 
-									<!-- Occupation -->
+									<!-- পেশা -->
 									<div class="col-span-6 sm:col-span-6 lg:col-span-2">
 										<label for="country"
-											class="block text-sm font-medium text-gray-700">Occupation</label>
+											class="block text-sm font-medium text-gray-700">পেশা</label>
 										<select id="country" name="country" autocomplete="country-name"
 											class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
 											<option>Nothing</option>
@@ -519,21 +487,13 @@
 										</select>
 									</div>
 
-
-
-
-
-
-
-
-
 									<!-- Marital status -->
-									<div class="col-span-6 sm:col-span-6 lg:col-span-2">
+									<div class="col-span-6 sm:col-span-6 lg:col-span-3">
 										<fieldset>
 											<legend class="contents text-base font-medium text-gray-900">Marital status
 											</legend>
 											<!-- <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.
-										</p> -->
+											</p> -->
 											<div class="mt-4 space-y-4">
 												<div class="flex items-center">
 													<input id="push-everything" name="push-notifications" type="radio"
@@ -556,283 +516,343 @@
 
 
 
-									<div class="col-span-6 ">
-										<fieldset>
 
+
+
+
+
+									<!-- বর্তমানে -->
+									<div class="col-span-6">
+
+
+										<fieldset>
+											<legend class="contents text-base font-semibold text-gray-900">বর্তমানে
+											</legend>
 											<!-- <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.
 										</p> -->
-											<div class="flex flex-wrap">
-												<div class="mr-4">
-													<legend class="contents text-base font-medium text-gray-900 ">
-														Present
-													</legend>
-												</div>
-												<div class="flex items-center mr-4">
-													<input id="red-radio" type="radio" value="" name="present"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-													<label for="red-radio"
-														class="ml-3 block text-sm font-medium text-gray-700">Red</label>
-												</div>
-												<div class="flex items-center mr-4">
-													<input id="green-radio" type="radio" value="" name="present"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-													<label for="green-radio"
-														class="ml-3 block text-sm font-medium text-gray-700">Green</label>
-												</div>
-												<div class="flex items-center mr-4">
-													<input checked="" id="purple-radio" type="radio" value=""
-														name="present"
-														class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-													<label for="purple-radio"
-														class="ml-3 block text-sm font-medium text-gray-700">Purple</label>
-												</div>
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
 
-												<div class="flex items-center mr-4">
-													<input type="number" name="region" id="region"
-														autocomplete="address-level1"
-														class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-													<label for="orangee-radio"
-														class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Orange</label>
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">ধূমপান</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input checked="" id="purple-radio" type="radio" value=""
+															name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="purple-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">গুল</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input id="red-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="red-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">সাদাপাতা</label>
+													</div>
+													<div class="flex items-center mr-4">
+														<input id="red-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="red-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">জর্দা</label>
+													</div>
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
 												</div>
 											</div>
+										</fieldset>
+									</div>
 
+
+
+									<!-- ব্যায়াম করেন হ্যা না মাঝে -->
+									<div class="col-span-6">
+
+
+										<fieldset>
+											<legend class="contents text-base font-semibold text-gray-900">ব্যায়াম করেন
+											</legend>
+											<!-- <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.
+										</p> -->
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">হ্যা
+														</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input checked="" id="purple-radio" type="radio" value=""
+															name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="purple-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">না</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input id="red-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="red-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">মাঝে
+															মাঝে</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
 										</fieldset>
 									</div>
 
 
 
 
-									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="region"
-											class="block text-sm font-medium text-gray-700">District</label>
-										<input type="text" name="region" id="region" autocomplete="address-level1"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="country" class="block text-sm font-medium text-gray-700">Phone
-											No</label>
-										<input type="Number" name="region" id="region" autocomplete="address-level1"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-									<div class="col-span-6 sm:col-span-3">
-										<label for="first-name" class="block text-sm font-medium text-gray-700">First
-											name</label>
-										<input type="text" name="first-name" id="first-name" autocomplete="given-name"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-									<div class="col-span-6 sm:col-span-3">
-										<label for="last-name" class="block text-sm font-medium text-gray-700">Last
-											name</label>
-										<input type="text" name="last-name" id="last-name" autocomplete="family-name"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-									<div class="col-span-6 sm:col-span-4">
-										<label for="email-address" class="block text-sm font-medium text-gray-700">Email
-											address</label>
-										<input type="text" name="email-address" id="email-address" autocomplete="email"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-									<div class="col-span-6 sm:col-span-3">
-										<label for="country"
-											class="block text-sm font-medium text-gray-700">Country</label>
-										<select id="country" name="country" autocomplete="country-name"
-											class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
-											<option>United States</option>
-											<option>Canada</option>
-											<option>Mexico</option>
-										</select>
-									</div>
-
+									<!--      -->
 									<div class="col-span-6">
-										<label for="street-address"
-											class="block text-sm font-medium text-gray-700">Street
-											address</label>
-										<input type="text" name="street-address" id="street-address"
-											autocomplete="street-address"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+
+
+										<fieldset>
+											<legend class="contents text-base font-semibold text-gray-900">খাওয়ার রুচি
+											</legend>
+											<!-- <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.
+										</p> -->
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">কম
+														</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input checked="" id="purple-radio" type="radio" value=""
+															name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="purple-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">বেশি</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input id="red-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="red-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">নাই</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input id="red-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="red-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">স্বাভাবিক</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
+										</fieldset>
 									</div>
 
-									<div class="col-span-6 sm:col-span-6 lg:col-span-2">
-										<label for="city" class="block text-sm font-medium text-gray-700">City</label>
-										<input type="text" name="city" id="city" autocomplete="address-level2"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="region" class="block text-sm font-medium text-gray-700">State /
-											Province</label>
-										<input type="text" name="region" id="region" autocomplete="address-level1"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="postal-code" class="block text-sm font-medium text-gray-700">ZIP /
-											Postal
-											code</label>
-										<input type="text" name="postal-code" id="postal-code"
-											autocomplete="postal-code"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-
-								</div>
-							</div>
-							<div class="px-4 py-3 bg-gray-50 text-right sm:px-6">
-								<button type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Save</button>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-
-		<div class="mt-10 sm:mt-8">
-			<div class="md:grid md:grid-cols-5 md:gap-6">
 
 
 
-				<div class="mt-5 md:mt-0 md:col-span-4">
-					<form action="#" method="POST">
-						<div class="shadow overflow-hidden sm:rounded-md">
-							<div class="px-4 py-5 bg-white sm:p-6">
-								<div class="grid grid-cols-6 gap-6">
 
 
-									<div class="col-span-6 sm:col-span-2 justify-start">
-										<label for="first-name" class="block text-sm font-medium text-gray-700">Id
-											No</label>
-										<input type="Number" name="first-name" id="first-name" autocomplete="given-name"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
 
-									<div class="col-span-6 hidden sm:block sm:col-span-2 ">
-									</div>
-									<div class="col-span-6 sm:col-span-2 text-right">
-										<label for="last-name"
-											class="block text-sm font-medium text-gray-700">Date</label>
-										<input type="datetime-local" name="date" id="last-name"
-											autocomplete="family-name"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
 
+									<!--  মানসিক দুশ্চিন্তা হ্যা না সামান্য     -->
 									<div class="col-span-6">
-										<p class="text-center text-xl font-semibold border-b-4 border-pink-300 pb-4">
-											Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, inventore.
-										</p>
-									</div>
 
-									<div class="col-span-6 sm:col-span-6 lg:col-span-2">
-										<label for="name" class="block text-sm font-medium text-gray-700">Name</label>
-										<input type="text" name="name" id="name" autocomplete="address-level2"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
 
-									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="region" class="block text-sm font-medium text-gray-700">Age</label>
-										<input type="Number" name="region" id="region" autocomplete="address-level1"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
+										<fieldset>
+											<legend class="contents text-base font-semibold text-gray-900">মানসিক
+												দুশ্চিন্তা</legend>
+											<!-- <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.
+										</p> -->
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
 
-									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="country"
-											class="block text-sm font-medium text-gray-700">Gender</label>
-										<select id="country" name="country" autocomplete="country-name"
-											class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
-											<option>Male</option>
-											<option>Female</option>
-											<option>Other</option>
-										</select>
-									</div>
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">হ্যা
+														</label>
+													</div>
 
-									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="region"
-											class="block text-sm font-medium text-gray-700">Upazila</label>
-										<input type="text" name="region" id="region" autocomplete="address-level1"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="region"
-											class="block text-sm font-medium text-gray-700">District</label>
-										<input type="text" name="region" id="region" autocomplete="address-level1"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
+													<div class="flex items-center mr-4">
+														<input checked="" id="purple-radio" type="radio" value=""
+															name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="purple-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">না</label>
+													</div>
 
-									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="country" class="block text-sm font-medium text-gray-700">Phone
-											No</label>
-										<input type="Number" name="region" id="region" autocomplete="address-level1"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-									<div class="col-span-6 sm:col-span-6 lg:col-span-2">
-										<label for="country" class="block text-sm font-medium text-gray-700">Blood
-											group</label>
-										<select id="country" name="country" autocomplete="country-name"
-											class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
-											<option>A +</option>
-											<option>A -</option>
-											<option>B +</option>
-											<option>B -</option>
-											<option>AB +</option>
-											<option>AB -</option>
-											<option>O +</option>
-											<option>O -</option>
-
-										</select>
-									</div>
+													<div class="flex items-center mr-4">
+														<input id="red-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="red-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">সামান্য</label>
+													</div>
 
 
 
-									<div class="col-span-6 sm:col-span-6 lg:col-span-2">
-										<label for="country" class="block text-sm font-medium text-gray-700">Educational
-											Qualifications</label>
-										<select id="country" name="country" autocomplete="country-name"
-											class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
-											<option>
-												< 5th</option>
-											<option>
-												< 10th</option>
-											<option>SSC</option>
-											<option>HSC</option>
-											<option>Graduate</option>
-											<option>Post Graduate</option>
-										</select>
-									</div>
 
 
-									<div class="col-span-6 sm:col-span-6 lg:col-span-2">
-										<label for="country"
-											class="block text-sm font-medium text-gray-700">Occupation</label>
-										<select id="country" name="country" autocomplete="country-name"
-											class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
-											<option>Nothing</option>
-											<option>Student</option>
-											<option>Job</option>
-											<option>Business</option>
-											<option>Housewife</option>
-											<option>Retired</option>
-											<option>Other</option>
 
-										</select>
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
+										</fieldset>
 									</div>
 
 
@@ -844,412 +864,1601 @@
 
 
 
-									<div class="col-span-6 sm:col-span-6 lg:col-span-2">
-										<label for="name" class="block text-sm font-medium text-gray-700">Blood
-											group</label>
-										<input type="text" name="name" id="name" autocomplete="address-level2"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="region"
-											class="block text-sm font-medium text-gray-700">District</label>
-										<input type="text" name="region" id="region" autocomplete="address-level1"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="country" class="block text-sm font-medium text-gray-700">Phone
-											No</label>
-										<input type="Number" name="region" id="region" autocomplete="address-level1"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-									<div class="col-span-6 sm:col-span-3">
-										<label for="first-name" class="block text-sm font-medium text-gray-700">First
-											name</label>
-										<input type="text" name="first-name" id="first-name" autocomplete="given-name"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-									<div class="col-span-6 sm:col-span-3">
-										<label for="last-name" class="block text-sm font-medium text-gray-700">Last
-											name</label>
-										<input type="text" name="last-name" id="last-name" autocomplete="family-name"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-									<div class="col-span-6 sm:col-span-4">
-										<label for="email-address" class="block text-sm font-medium text-gray-700">Email
-											address</label>
-										<input type="text" name="email-address" id="email-address" autocomplete="email"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-									<div class="col-span-6 sm:col-span-3">
-										<label for="country"
-											class="block text-sm font-medium text-gray-700">Country</label>
-										<select id="country" name="country" autocomplete="country-name"
-											class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
-											<option>United States</option>
-											<option>Canada</option>
-											<option>Mexico</option>
-										</select>
-									</div>
-
+									<!--  মলত্যাগ নিয়মিত অনিয়মিত কাঠিন্য আমাশয় কখনও পাতলা কখনও কঠিন     -->
 									<div class="col-span-6">
-										<label for="street-address"
-											class="block text-sm font-medium text-gray-700">Street
-											address</label>
-										<input type="text" name="street-address" id="street-address"
-											autocomplete="street-address"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-									<div class="col-span-6 sm:col-span-6 lg:col-span-2">
-										<label for="city" class="block text-sm font-medium text-gray-700">City</label>
-										<input type="text" name="city" id="city" autocomplete="address-level2"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="region" class="block text-sm font-medium text-gray-700">State /
-											Province</label>
-										<input type="text" name="region" id="region" autocomplete="address-level1"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
-
-									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="postal-code" class="block text-sm font-medium text-gray-700">ZIP /
-											Postal
-											code</label>
-										<input type="text" name="postal-code" id="postal-code"
-											autocomplete="postal-code"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
 
 
-								</div>
-							</div>
-							<div class="px-4 py-3 bg-gray-50 text-right sm:px-6">
-								<button type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Save</button>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
+										<fieldset>
+											<legend class="contents text-base font-semibold text-gray-900">মলত্যাগ
+											</legend>
+											<!-- <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.
+										</p> -->
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
 
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">নিয়মিত
+														</label>
+													</div>
 
+													<div class="flex items-center mr-4">
+														<input checked="" id="purple-radio" type="radio" value=""
+															name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="purple-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">অনিয়মিত
+														</label>
+													</div>
 
+													<div class="flex items-center mr-4">
+														<input id="red-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="red-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">কোষ্ঠ
+															কাঠিন্য</label>
+													</div>
 
-
-
-
-
-
+													<div class="flex items-center mr-4">
+														<input id="red-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="red-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">আমাশয়
+														</label>
+													</div>
+													<div class="flex items-center mr-4">
+														<input id="red-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="red-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">কখনও
+															পাতলা কখনও কঠিন </label>
+													</div>
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-		<div>
-			<div class="md:grid md:grid-cols-3 md:gap-6">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-				<div class="mt-5 md:mt-0 md:col-span-3">
-					<form action="#" method="POST">
-						<div class="shadow sm:rounded-md sm:overflow-hidden">
-							<div class="px-4 py-5 bg-white space-y-6 sm:p-6">
-								<div class="grid grid-cols-3 gap-6">
-									<div class="col-span-3 sm:col-span-2">
-										<label for="company-website" class="block text-sm font-medium text-gray-700">
-											Website
-										</label>
-										<div class="mt-1 flex rounded-md shadow-sm">
-											<span
-												class="inline-flex items-center px-3 rounded-l-md border border-r-0 border-gray-300 bg-gray-50 text-gray-500 text-sm">
-												http:// </span>
-											<input type="text" name="company-website" id="company-website"
-												class="focus:ring-indigo-500 focus:border-indigo-500 flex-1 block w-full rounded-none rounded-r-md sm:text-sm border-gray-300"
-												placeholder="www.example.com">
-										</div>
-									</div>
-								</div>
-
-								<div>
-									<label for="about" class="block text-sm font-medium text-gray-700"> About </label>
-									<div class="mt-1">
-										<textarea id="about" name="about" rows="3"
-											class="shadow-sm focus:ring-indigo-500 focus:border-indigo-500 mt-1 block w-full sm:text-sm border border-gray-300 rounded-md"
-											placeholder="you@example.com"></textarea>
-									</div>
-									<p class="mt-2 text-sm text-gray-500">Brief description for your profile. URLs are
-										hyperlinked.</p>
-								</div>
-
-								<div>
-									<label class="block text-sm font-medium text-gray-700"> Photo </label>
-									<div class="mt-1 flex items-center">
-										<span class="inline-block h-12 w-12 rounded-full overflow-hidden bg-gray-100">
-											<svg class="h-full w-full text-gray-300" fill="currentColor"
-												viewBox="0 0 24 24">
-												<path
-													d="M24 20.993V24H0v-2.996A14.977 14.977 0 0112.004 15c4.904 0 9.26 2.354 11.996 5.993zM16.002 8.999a4 4 0 11-8 0 4 4 0 018 0z" />
-											</svg>
-										</span>
-										<button type="button"
-											class="ml-5 bg-white py-2 px-3 border border-gray-300 rounded-md shadow-sm text-sm leading-4 font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Change</button>
-									</div>
-								</div>
-
-								<div>
-									<label class="block text-sm font-medium text-gray-700"> Cover photo </label>
-									<div
-										class="mt-1 flex justify-center px-6 pt-5 pb-6 border-2 border-gray-300 border-dashed rounded-md">
-										<div class="space-y-1 text-center">
-											<svg class="mx-auto h-12 w-12 text-gray-400" stroke="currentColor"
-												fill="none" viewBox="0 0 48 48" aria-hidden="true">
-												<path
-													d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02"
-													stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-											</svg>
-											<div class="flex text-sm text-gray-600">
-												<label for="file-upload"
-													class="relative cursor-pointer bg-white rounded-md font-medium text-indigo-600 hover:text-indigo-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500">
-													<span>Upload a file</span>
-													<input id="file-upload" name="file-upload" type="file"
-														class="sr-only">
-												</label>
-												<p class="pl-1">or drag and drop</p>
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
 											</div>
-											<p class="text-xs text-gray-500">PNG, JPG, GIF up to 10MB</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="px-4 py-3 bg-gray-50 text-right sm:px-6">
-								<button type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Save</button>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-
-		<div class="hidden sm:block" aria-hidden="true">
-			<div class="py-5">
-				<div class="border-t border-gray-200"></div>
-			</div>
-		</div>
-
-		<div class="mt-10 sm:mt-0">
-			<div class="md:grid md:grid-cols-3 md:gap-6">
-
-				<div class="mt-5 md:mt-0 md:col-span-3">
-					<form action="#" method="POST">
-						<div class="shadow overflow-hidden sm:rounded-md">
-							<div class="px-4 py-5 bg-white sm:p-6">
-								<div class="grid grid-cols-6 gap-6">
-									<div class="col-span-6 sm:col-span-3">
-										<label for="first-name" class="block text-sm font-medium text-gray-700">First
-											name</label>
-										<input type="text" name="first-name" id="first-name" autocomplete="given-name"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+										</fieldset>
 									</div>
 
-									<div class="col-span-6 sm:col-span-3">
-										<label for="last-name" class="block text-sm font-medium text-gray-700">Last
-											name</label>
-										<input type="text" name="last-name" id="last-name" autocomplete="family-name"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
 
-									<div class="col-span-6 sm:col-span-4">
-										<label for="email-address" class="block text-sm font-medium text-gray-700">Email
-											address</label>
-										<input type="text" name="email-address" id="email-address" autocomplete="email"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
-									</div>
 
-									<div class="col-span-6 sm:col-span-3">
-										<label for="country"
-											class="block text-sm font-medium text-gray-700">Country</label>
-										<select id="country" name="country" autocomplete="country-name"
-											class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
-											<option>United States</option>
-											<option>Canada</option>
-											<option>Mexico</option>
-										</select>
-									</div>
 
+
+
+
+
+
+
+
+
+									<!--  প্রস্রাব নিয়মিত জ্বালাপোড়া কম বেশি ঘন ঘন ধরে রাখতে পারিনা আটকে থাকা      -->
 									<div class="col-span-6">
-										<label for="street-address"
-											class="block text-sm font-medium text-gray-700">Street
-											address</label>
-										<input type="text" name="street-address" id="street-address"
-											autocomplete="street-address"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+
+
+										<fieldset>
+											<legend class="contents text-base font-semibold text-gray-900">প্রস্রাব
+											</legend>
+											<!-- <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.
+										</p> -->
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">নিয়মিত
+														</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input checked="" id="purple-radio" type="radio" value=""
+															name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="purple-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">জ্বালাপোড়া</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input id="red-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="red-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">কম
+														</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input id="red-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="red-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">বেশি
+														</label>
+													</div>
+													<div class="flex items-center mr-4">
+														<input id="red-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="red-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">ঘনঘন
+														</label>
+													</div>
+													<div class="flex items-center mr-4">
+														<input id="red-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="red-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">ধরে
+															রাখতে পারিনা </label>
+													</div>
+													<div class="flex items-center mr-4">
+														<input id="red-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="red-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">আটকে
+															থাকা</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
+										</fieldset>
 									</div>
 
-									<div class="col-span-6 sm:col-span-6 lg:col-span-2">
-										<label for="city" class="block text-sm font-medium text-gray-700">City</label>
-										<input type="text" name="city" id="city" autocomplete="address-level2"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+
+
+
+
+
+
+
+
+
+
+
+									<!--  ঘুম হয়না    -->
+									<div class="col-span-6">
+
+
+										<fieldset>
+											<legend class="contents text-base font-semibold text-gray-900">ঘুম</legend>
+											<!-- <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.
+										</p> -->
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">নিয়মিত
+														</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input checked="" id="purple-radio" type="radio" value=""
+															name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="purple-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">অনিয়মিত
+														</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">কম
+														</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input checked="" id="purple-radio" type="radio" value=""
+															name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="purple-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">বেশি</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input id="red-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="red-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">হয়না</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
+										</fieldset>
 									</div>
 
-									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="region" class="block text-sm font-medium text-gray-700">State /
-											Province</label>
-										<input type="text" name="region" id="region" autocomplete="address-level1"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+
+
+
+
+
+
+
+
+
+
+
+									<!--   ওজন পরিবর্তন একই    -->
+									<div class="col-span-6">
+
+
+										<fieldset>
+											<legend class="contents text-base font-semibold text-gray-900">ওজন পরিবর্তন
+											</legend>
+											<!-- <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.
+										</p> -->
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">কম
+														</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input checked="" id="purple-radio" type="radio" value=""
+															name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="purple-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">বেশি</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input id="red-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="red-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">একই</label>
+													</div>
+
+
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
+										</fieldset>
 									</div>
 
-									<div class="col-span-6 sm:col-span-3 lg:col-span-2">
-										<label for="postal-code" class="block text-sm font-medium text-gray-700">ZIP /
-											Postal
-											code</label>
-										<input type="text" name="postal-code" id="postal-code"
-											autocomplete="postal-code"
-											class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+
+
+
+
+
+
+									<!--  এলার্জ  / চুলকানী:হ্যাঁ / না , কিসে হয়:    -->
+									<div class="col-span-6">
+
+
+										<fieldset>
+											<!-- <legend class="contents text-base font-semibold text-gray-900">খাওয়ার রুচি</legend> -->
+											<!-- <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.
+										</p> -->
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">এলার্জ
+														</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input checked="" id="purple-radio" type="radio" value=""
+															name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="purple-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">চুলকানী</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<label for="city"
+															class="block text-sm font-semibold text-gray-700 mr-4 flex gap-3">কিসেহয়:</label>
+														<input type="text" name="city" id="city"
+															autocomplete="address-level2"
+															class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full shadow-sm sm:text-sm border-gray-300 rounded-md">
+													</div>
+
+
+
+												</div>
+											</div>
+										</fieldset>
 									</div>
-								</div>
-							</div>
-							<div class="px-4 py-3 bg-gray-50 text-right sm:px-6">
-								<button type="submit"
-									class="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">Save</button>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
 
-		<div class="hidden sm:block" aria-hidden="true">
-			<div class="py-5">
-				<div class="border-t border-gray-200"></div>
-			</div>
-		</div>
 
-		<div class="mt-10 sm:mt-0">
-			<div class="md:grid md:grid-cols-3 md:gap-6">
 
-				<div class="mt-5 md:mt-0 md:col-span-3">
-					<form action="#" method="POST">
-						<div class="shadow overflow-hidden sm:rounded-md">
-							<div class="px-4 py-5 bg-white space-y-6 sm:p-6">
-								<fieldset>
-									<legend class="sr-only">By Email</legend>
-									<div class="text-base font-medium text-gray-900" aria-hidden="true">By Email</div>
-									<div class="mt-4 space-y-4">
-										<div class="flex items-start">
-											<div class="flex items-center h-5">
-												<input id="comments" name="comments" type="checkbox"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+
+									<!--   পেটজ্বালা পোড়া    -->
+									<div class="col-span-6">
+
+
+										<fieldset>
+											<legend class="contents text-base font-semibold text-gray-900">পেটজ্বালা
+												পোড়া</legend>
+											<!-- <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.
+										</p> -->
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">হ্যা
+														</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input checked="" id="purple-radio" type="radio" value=""
+															name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="purple-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">না</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
 											</div>
-											<div class="ml-3 text-sm">
-												<label for="comments" class="font-medium text-gray-700">Comments</label>
-												<p class="text-gray-500">Get notified when someones posts a comment on a
-													posting.</p>
+										</fieldset>
+									</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									<!--  বুক ধড়ফর     -->
+									<div class="col-span-6">
+
+
+										<fieldset>
+											<legend class="contents text-base font-semibold text-gray-900">বুক ধড়ফর
+											</legend>
+											<!-- <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.
+										</p> -->
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">হ্যা
+														</label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input checked="" id="purple-radio" type="radio" value=""
+															name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="purple-radio"
+															class="ml-3 block text-sm font-medium text-gray-700">না</label>
+													</div>
+
+
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
 											</div>
-										</div>
-										<div class="flex items-start">
-											<div class="flex items-center h-5">
-												<input id="candidates" name="candidates" type="checkbox"
-													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+										</fieldset>
+									</div>
+
+
+
+
+
+
+
+									<!--  
+হাত - পা চাবায় / কামড়ায়    -->
+									<div class="col-span-6">
+
+
+										<fieldset>
+											<!-- <legend class="contents text-base font-semibold text-gray-900">খাওয়ার রুচি</legend> -->
+											<!-- <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.
+										</p> -->
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">হাত -
+															পা চাবায় </label>
+													</div>
+
+													<div class="flex items-center mr-4">
+														<input checked="" id="purple-radio" type="radio" value=""
+															name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="purple-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">কামড়ায়</label>
+													</div>
+
+
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
 											</div>
-											<div class="ml-3 text-sm">
-												<label for="candidates"
-													class="font-medium text-gray-700">Candidates</label>
-												<p class="text-gray-500">Get notified when a candidate applies for a
-													job.</p>
+										</fieldset>
+									</div>
+
+
+
+
+
+
+
+									<!--  আপনার কি নিন্মলিখিত রোগগুলি কখনও হয়েছিল?    -->
+									<div class="col-span-6">
+										<h3 class="text-xl font-semibold">আপনার কি নিন্মলিখিত রোগগুলি আছে ? থাকলে কতদিন
+											ধরে?</h3>
+									</div>
+
+
+									<!-- ডায়াবেটিকস -->
+									<div class="col-span-6">
+
+
+										<fieldset>
+											<!-- <legend class="contents text-base font-semibold text-gray-900">খাওয়ার রুচি</legend> -->
+											<!-- <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.
+										</p> -->
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">ডায়াবেটিকস</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
 											</div>
-										</div>
-										<div class="flex items-start">
+										</fieldset>
+									</div>
+
+
+									<!-- হাইপ্রেসার  -->
+									<div class="col-span-6">
+
+
+										<fieldset>
+											<!-- <legend class="contents text-base font-semibold text-gray-900">খাওয়ার রুচি</legend> -->
+											<!-- <p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.
+										</p> -->
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">হাইপ্রেসার</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
+										</fieldset>
+									</div>
+
+
+
+
+
+									<!-- স্ট্রোক   -->
+									<div class="col-span-6">
+
+										<fieldset>
+
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">স্ট্রোক</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
+										</fieldset>
+									</div>
+
+
+
+
+									<!-- আর্থ্রাইটিস (গিরা ব্যাথা)   -->
+									<div class="col-span-6">
+
+										<fieldset>
+
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">আর্থ্রাইটিস
+															(গিরা ব্যাথা)</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
+										</fieldset>
+									</div>
+
+
+
+
+									<!-- থাইরয়েডের রোগ    -->
+									<div class="col-span-6">
+
+										<fieldset>
+
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">থাইরয়েডের
+															রোগ</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
+										</fieldset>
+									</div>
+
+
+
+
+									<!-- হাঁপানী শ্বাসকষ্ট    -->
+									<div class="col-span-6">
+
+										<fieldset>
+
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">হাঁপানী
+														</label>
+													</div>
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">শ্বাসকষ্ট
+														</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
+										</fieldset>
+									</div>
+
+
+
+
+
+
+
+
+
+									<!-- কিডনীর রোগ    -->
+									<div class="col-span-6">
+
+										<fieldset>
+
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">কিডনীর
+															রোগ</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
+										</fieldset>
+									</div>
+
+
+
+
+
+
+
+									<!-- হার্টের অসুখ     -->
+									<div class="col-span-6">
+
+										<fieldset>
+
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">হার্টের
+															অসুখ</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
+										</fieldset>
+									</div>
+
+
+
+
+
+
+									<!--  লিভারের অসুখ    -->
+									<div class="col-span-6">
+
+										<fieldset>
+
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">লিভারের
+															অসুখ</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
+										</fieldset>
+									</div>
+
+
+
+									<!-- হেপাটাইটিস বি ভাইরাস      -->
+									<div class="col-span-6">
+
+										<fieldset>
+
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">হেপাটাইটিস
+															বি ভাইরাস</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
+										</fieldset>
+									</div>
+
+
+
+									<!-- হেপাটাইটিস সি ভাইরাস     -->
+									<div class="col-span-6">
+
+										<fieldset>
+
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">হেপাটাইটিস
+															সি ভাইরাস</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
+										</fieldset>
+									</div>
+
+
+
+
+
+									<!-- অন্যান্য    -->
+									<div class="col-span-6">
+
+										<fieldset>
+
+											<div class="my-4 space-y-4">
+												<div class="flex flex-wrap gap-3">
+
+													<div class="flex items-center mr-4">
+														<input id="green-radio" type="radio" value="" name="present"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
+														<label for="green-radio"
+															class="ml-3 block text-sm font-semibold text-gray-700">অন্যান্য</label>
+													</div>
+
+
+
+
+
+													<div date-rangepicker="" class="flex items-center">
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="start" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date start">
+														</div>
+														<span class="mx-4 text-gray-500">to</span>
+														<div class="relative">
+															<div
+																class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+																<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+																	fill="currentColor" viewBox="0 0 20 20"
+																	xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd"
+																		d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																		clip-rule="evenodd"></path>
+																</svg>
+															</div>
+															<input name="end" type="text"
+																class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+																placeholder="Select date end">
+														</div>
+													</div>
+												</div>
+											</div>
+										</fieldset>
+									</div>
+
+
+
+
+
+
+
+									<!-- আপনার কি নিন্মলিখিত রোগগুলি কখনও হয়েছিল?     -->
+									<div class="col-span-6">
+										<fieldset>
+											<legend class="sr-only">আপনার কি নিন্মলিখিত রোগগুলি কখনও হয়েছিল?</legend>
+											<div class="text-lg font-semibold text-gray-900" aria-hidden="true">আপনার কি
+												নিন্মলিখিত রোগগুলি কখনও হয়েছিল?</div>
+											<div class="mt-4 flex space-x-4">
+												<div class="flex items-start">
+													<div class="flex items-center h-5">
+														<input id="comments" name="comments" type="checkbox"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+													</div>
+													<div class="ml-3 text-sm">
+														<label for="comments"
+															class="font-medium text-gray-700">জন্ডিস</label>
+
+													</div>
+												</div>
+												<div class="flex items-start">
+													<div class="flex items-center h-5">
+														<input id="candidates" name="candidates" type="checkbox"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+													</div>
+													<div class="ml-3 text-sm">
+														<label for="candidates" class="font-medium text-gray-700">ডেঙ্গু
+															জ্বর</label>
+
+													</div>
+												</div>
+												<div class="flex items-start">
+													<div class="flex items-center h-5">
+														<input id="offers" name="offers" type="checkbox"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+													</div>
+													<div class="ml-3 text-sm">
+														<label for="offers" class="font-medium text-gray-700">টাইফয়েড
+															জ্বর</label>
+
+													</div>
+												</div>
+												<div class="flex items-start">
+													<div class="flex items-center h-5">
+														<input id="offers" name="offers" type="checkbox"
+															class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
+													</div>
+													<div class="ml-3 text-sm">
+														<label for="offers" class="font-medium text-gray-700">ম্যালেরিয়া
+															জ্বর</label>
+
+													</div>
+												</div>
+
+											</div>
+										</fieldset>
+
+										<div class="flex items-center gap-3 my-3">
 											<div class="flex items-center h-5">
 												<input id="offers" name="offers" type="checkbox"
 													class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300 rounded">
 											</div>
 											<div class="ml-3 text-sm">
-												<label for="offers" class="font-medium text-gray-700">Offers</label>
-												<p class="text-gray-500">Get notified when a candidate accepts or
-													rejects an
-													offer.</p>
+												<label for="offers" class="font-medium text-gray-700">যক্ষা
+													(টিবি) </label>
+
+
+
+											</div>
+
+											<label for="first-name"
+												class="block text-sm font-medium text-gray-700">কতমাস ঔষধ
+												খেয়েছিলেন</label>
+											<div date-rangepicker="" class="flex items-center">
+												<div class="relative">
+													<div
+														class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+														<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+															fill="currentColor" viewBox="0 0 20 20"
+															xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd"
+																d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																clip-rule="evenodd"></path>
+														</svg>
+													</div>
+													<input name="start" type="text"
+														class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+														placeholder="Select date start">
+												</div>
+												<span class="mx-4 text-gray-500">to</span>
+												<div class="relative">
+													<div
+														class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+														<svg class="w-5 h-5 text-gray-500 dark:text-gray-400"
+															fill="currentColor" viewBox="0 0 20 20"
+															xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd"
+																d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z"
+																clip-rule="evenodd"></path>
+														</svg>
+													</div>
+													<input name="end" type="text"
+														class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 datepicker-input"
+														placeholder="Select date end">
+												</div>
 											</div>
 										</div>
+
+
 									</div>
-								</fieldset>
-								<fieldset>
-									<legend class="contents text-base font-medium text-gray-900">Push Notifications
-									</legend>
-									<p class="text-sm text-gray-500">These are delivered via SMS to your mobile phone.
-									</p>
-									<div class="mt-4 space-y-4">
-										<div class="flex items-center">
-											<input id="push-everything" name="push-notifications" type="radio"
-												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-											<label for="push-everything"
-												class="ml-3 block text-sm font-medium text-gray-700">
-												Everything </label>
-										</div>
-										<div class="flex items-center">
-											<input id="push-email" name="push-notifications" type="radio"
-												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-											<label for="push-email"
-												class="ml-3 block text-sm font-medium text-gray-700"> Same
-												as email </label>
-										</div>
-										<div class="flex items-center">
-											<input id="push-nothing" name="push-notifications" type="radio"
-												class="focus:ring-indigo-500 h-4 w-4 text-indigo-600 border-gray-300">
-											<label for="push-nothing"
-												class="ml-3 block text-sm font-medium text-gray-700"> No
-												push notifications </label>
-										</div>
-									</div>
-								</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+								</div>
 							</div>
 							<div class="px-4 py-3 bg-gray-50 text-right sm:px-6">
 								<button type="submit"
@@ -1260,22 +2469,23 @@
 				</div>
 			</div>
 		</div>
-	</div>
 
 
-	<script>
-
-		if ($("input[name='present']:checked").val()) {
-			console.log('is not selected');
-			console.log($("input[name='present']:checked").val());
-		} else {
-			console.log('is selecteasjknlsmlnldad');
-		}
 
 
-	</script>
+		<script>
 
-	<script src="./js/sidebar.js"></script>
+			if ($("input[name='present']:checked").val()) {
+				console.log('is not selected');
+				console.log($("input[name='present']:checked").val());
+			} else {
+				console.log('is selecteasjknlsmlnldad');
+			}
+
+
+		</script>
+
+		<script src="./js/sidebar.js"></script>
 
 </body>
 
