@@ -1,0 +1,235 @@
+.left_1 {
+	position: absolute;
+	left: 2px;
+	bottom: 172px;
+}
+
+.left_2 {
+	position: absolute;
+	left: 26px;
+	bottom: 118px;
+}
+
+.left_3 {
+	position: absolute;
+	left: 53px;
+	bottom: 109px;
+}
+
+.left_4 {
+	position: absolute;
+	left: 82px;
+	bottom: 110px;
+}
+
+.left_5 {
+	position: absolute;
+	left: 103px;
+	bottom: 118px;
+}
+
+.left_6 {
+	position: absolute;
+	left: 21px;
+	bottom: 189px;
+}
+
+.left_7 {
+	position: absolute;
+	left: 34px;
+	bottom: 145px;
+}
+
+.left_8 {
+	position: absolute;
+	left: 60px;
+	bottom: 135px;
+}
+
+.left_9 {
+	position: absolute;
+	left: 81px;
+	bottom: 135px;
+}
+
+.left_10 {
+	position: absolute;
+	left: 102px;
+	bottom: 137px;
+}
+
+.right_1 {
+	position: absolute;
+	right: 3px;
+	bottom: 163px;
+}
+
+.right_2 {
+	position: absolute;
+	right: 19px;
+	bottom: 111px;
+}
+
+.right_3 {
+	position: absolute;
+	right: 45px;
+	bottom: 104px;
+}
+
+.right_4 {
+	position: absolute;
+	right: 73px;
+	bottom: 106px;
+}
+
+.right_5 {
+	position: absolute;
+	right: 96px;
+	bottom: 114px;
+}
+
+.right_6 {
+	position: absolute;
+	right: 25px;
+	bottom: 183px;
+}
+
+.right_7 {
+	position: absolute;
+	right: 32px;
+	bottom: 134px;
+}
+
+.right_8 {
+	position: absolute;
+	right: 55px;
+	bottom: 124px;
+}
+
+.right_9 {
+	position: absolute;
+	right: 75px;
+	bottom: 126px;
+}
+
+.right_10 {
+	position: absolute;
+	right: 98px;
+	bottom: 132px;
+}
+
+
+.left_wrist {
+	position: absolute;
+	left: 105px;
+	bottom: 247px;
+}
+
+.right_wrist {
+	position: absolute;
+	right: 113px;
+	bottom: 245px;
+}
+
+.left_elbow {
+	position: absolute;
+	left: 125px;
+	top: 128px;
+}
+
+.right_elbow {
+	position: absolute;
+	right: 136px;
+	top: 131px;
+}
+
+.left_arm {
+	position: absolute;
+	left: 134px;
+	top: 86px;
+}
+
+.right_arm {
+	position: absolute;
+	right: 149px;
+	top: 91px;
+}
+
+.neck {
+	position: absolute;
+	left: 175px;
+	top: 47px;
+}
+
+
+.chest_1 {
+	position: absolute;
+	left: 160px;
+	top: 70px;
+}
+
+.chest_2 {
+	position: absolute;
+	left: 160px;
+	top: 100px;
+}
+
+.chest_3 {
+	position: absolute;
+	right: 173px;
+	top: 70px;
+}
+
+.chest_4 {
+	position: absolute;
+	right: 173px;
+	top: 100px;
+}
+
+.left_thigh {
+	position: absolute;
+	left: 162px;
+	top: 170px;
+}
+
+.right_thigh {
+	position: absolute;
+	right: 168px;
+	top: 172px;
+}
+
+.left_knee {
+	position: absolute;
+	left: 165px;
+	bottom: 170px;
+}
+
+.right_knee {
+	position: absolute;
+	right: 164px;
+	bottom: 170px;
+}
+
+.left_leg {
+	position: absolute;
+	left: 169px;
+	bottom: 102px;
+}
+
+.right_leg {
+	position: absolute;
+	right: 158px;
+	bottom: 103px;
+}
+
+.left_foot {
+	position: absolute;
+	left: 100px;
+	bottom: 31px;
+}
+
+.right_foot {
+	position: absolute;
+	right: 93px;
+	bottom: 31px;
+}
